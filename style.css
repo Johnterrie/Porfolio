@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  position: relative;
+}
+
+/* 000026 */
+
+body {
+  max-width: 100px;
+  background-color: #e6f3f8;
+  scroll-behavior: smooth;
+}
+
+/* SECTION ONE */
+
+.section-one {
+  width: 98vw;
+  height: 95vh;
+}
+
+.sect-one-ul {
+  width: 45vw;
+  list-style-type: none;
+}
+
+.sect-one-nav {
+  margin-top: 10vh;
+  color: #000080;
+}
+
+.fa-bars {
+  margin-left: 1vw;
+}
+
+.for-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sect-one-nav {
+  margin: 3vw 15vh;
+  align-items: center;
+}
+
+.section-one-main {
+  height: 75vh;
+  display: flex;
+  padding-left: 10vw;
+}
+
+.div-one-right {
+  position: relative;
+  height: 100%;
+  width: 50%;
+}
+
+.img-main {
+  width: 40vw;
+  margin-left: 5vw;
+}
+
+.software {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  margin: 7vh 0 0 0;
+  color: #00004d;
+  height: 100%;
+  width: 45%;
+}
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.view {
+  margin: 20vh 0 0 20vw;
+}
+
+/* SECTION TWO */
+
+.section-two {
+  width: 92vw;
+  margin: 20vh 0 0 5vw;
+  display: flex;
+}
+
+.img-two-div-left {
+  width: 40%;
+}
+
+.img-two-div-right {
+  margin: 20vh 0 0 5vw;
+}
+
+.middle-div {
+  margin-top: 5vh;
+  width: 40vw;
+  word-wrap: wrap;
+  margin-bottom: 7vh;
+  color: #000080;
+}
+
+.btn-too {
+  border: none;
+  background-color: #000080;
+  height: 10vh;
+  width: 25vw;
+  color: azure;
+  border-radius: 20px;
+}
+
+/* SECTION THREE */
+
+.section-three {
+  width: 96vw;
+  height: 30vh;
+  margin-left: 1.5vw;
+  background-color: #cbcbff;
+  color: #000080;
+}
+
+.three-skill {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.three-lorem {
+  margin: 2vh 0 7vh 0;
+  text-align: center;
+}
+
+.skill-div {
+  border: 1px solid green;
+  height: 200vh;
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.same {
+    margin-left: 5vw;
+    width: 48vw;
+    height: 55vh;
+}
+
+.flex-class {
+    display: flex;
+}
