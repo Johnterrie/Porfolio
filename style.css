@@ -138,8 +138,7 @@ body {
 }
 
 .skill-div {
-  border: 1px solid green;
-  height: 200vh;
+  height: 170vh;
   margin-top: 20vh;
   display: flex;
   flex-direction: column;
@@ -154,4 +153,16 @@ body {
 
 .flex-class {
     display: flex;
+}
+
+.norm-proj {
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.issh {
+  margin-right: 15px ;
+  margin-left: 7px;
 }
